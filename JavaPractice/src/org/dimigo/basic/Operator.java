@@ -24,6 +24,11 @@ public class Operator {
 			System.out.println("사다리꼴이 평행사변형보다 " + (sa - pyung) + "더 큽니다.");
 		}
 		
+		else if(sa == pyung)
+		{
+			System.out.println("두 도형의 넓이는 같습니다.");
+		}
+		
 		else
 		{
 			System.out.println("사다리꼴이 평행사변형보다 " + (pyung - sa) + "더 큽니다.");
