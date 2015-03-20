@@ -6,7 +6,7 @@ public class Promotion {
 		int salary = 1700000;
 		int employee = 3;
 		int shop = 1500;
-		long Yearincome = (long)salary * 12 * (long)employee * (long)shop;
+		long Yearincome = (long)salary * 12 * employee * shop;
 		
 		System.out.println("<< 디미베네 연간 인건비 >>");
 		System.out.println("월 평균 급여 : "+ String.format("%,d", salary) + "원");
