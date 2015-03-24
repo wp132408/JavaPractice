@@ -3,8 +3,8 @@ package org.dimigo.basic;
 public class Condition {
 
 	public static void main(String[] args) {
-		int cartype = 1;
-		int distance = 25;
+		int cartype = 0;
+		int distance = 20;
 		String Cartype;
 		int basic_cost = 0;
 		int final_cost = 0;
@@ -28,15 +28,37 @@ public class Condition {
 		switch(Cartype)
 		{
 		case "고속버스" :
-			final_cost += basic_cost + 300 * (distance / 10);
+			if(distance == 0)
+			{
+				final_cost += basic_cost + 300 * (distance / 10);
+			}
+			else
+			{
+				final_cost += basic_cost + 300 * ((distance-1) / 10);
+			}
+			
 			break;
 			
 		case "경차" :
-			final_cost += basic_cost + 200 * (distance / 10);
+			if(distance == 0)
+			{
+				final_cost += basic_cost + 200 * (distance / 10);
+			}
+			else
+			{
+				final_cost += basic_cost + 200 * ((distance-1) / 10);
+			}
 			break;
 			
 		default :
-			final_cost += basic_cost + 200 * (distance / 10);
+			if(distance == 0)
+			{
+				final_cost += basic_cost + 200 * (distance / 10);
+			}
+			else
+			{
+				final_cost += basic_cost + 200 * ((distance-1) / 10);
+			}
 			break;
 		}
 		
