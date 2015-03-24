@@ -4,7 +4,7 @@ public class Condition {
 
 	public static void main(String[] args) {
 		int cartype = 1;
-		int distance = 30;
+		int distance = 25;
 		String Cartype;
 		int basic_cost = 0;
 		int final_cost = 0;
@@ -32,11 +32,11 @@ public class Condition {
 			break;
 			
 		case "경차" :
-			final_cost += basic_cost + 300 * (distance / 10);
+			final_cost += basic_cost + 200 * (distance / 10);
 			break;
 			
 		default :
-			final_cost += basic_cost + 300 * (distance / 10);
+			final_cost += basic_cost + 200 * (distance / 10);
 			break;
 		}
 		
