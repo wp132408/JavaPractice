@@ -7,7 +7,7 @@ public class Condition {
 		int distance = 20;
 		String Cartype;
 		int basic_cost = 0;
-		int final_cost = 0;
+		int final_cost = 0;	
 		
 		switch(cartype)
 		{
