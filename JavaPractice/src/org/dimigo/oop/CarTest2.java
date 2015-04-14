@@ -17,9 +17,9 @@ package org.dimigo.oop;
  */
 public class CarTest2 {
 	public static void main(String[] args) {
-		Car2 modern = new Car2("현대자동차", "제네시스", "검정색", 225, 50000000);
-		Car2 Gia = new Car2("기아자동차", "K7", "흰색", 246, 40000000);
-		Car2 samsung = new Car2("삼성자동차", "SM7", "회색", 200, 38000000);
+		Car3 modern = new Car3("현대자동차", "제네시스", "검정색", 225, 50000000);
+		Car3 Gia = new Car3("기아자동차", "K7", "흰색", 246);
+		Car3 samsung = new Car3("삼성자동차", "SM7", "회색");
 		
 		System.out.println("<< 자동차 목록 >> ");
 		System.out.println("제조사명 : " + modern.getCompany());
