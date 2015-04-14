@@ -6,7 +6,7 @@ package org.dimigo.oop;
 /**
  * <pre>
  * org.dimigo.oop
- *    ㅣ_Car2
+ *    ㅣ_Car3
  *
  * 1. 개요:Car클래스 구현
  * 2. 작성일 : 2015. 4. 13.
