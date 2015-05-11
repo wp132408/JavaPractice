@@ -46,6 +46,18 @@ public class Question {
 			System.out.println("정답입니다.");
 		else
 			System.out.println("틀렸습니다.");
+		
+		while(true)
+		{
+			System.out.println("끝내겠습니까??");
+			answer = scanner.nextLine();
+			if("네".equals(answer))
+			{
+				System.out.println("정답입니다.");
+				System.exit(0);
+			}else
+				System.out.println("틀렸습니다.");
+		}
 	}
 
 }
