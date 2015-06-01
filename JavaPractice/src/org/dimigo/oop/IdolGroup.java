@@ -32,8 +32,8 @@ public class IdolGroup {
 			{
 				System.out.println(members[i][j]);
 			}
+			System.out.println();
 		}
-		System.out.println();
 	}
 
 }
