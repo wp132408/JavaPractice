@@ -28,7 +28,7 @@ public class Galaxy extends SmartPhone{
 	
 	public void pay()
 	{
-		System.out.println("삼성 페이로 ");
+		System.out.print("삼성 페이로 ");
 		super.pay();
 	}
 	
