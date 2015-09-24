@@ -53,10 +53,8 @@ public class SmartPhone {
 		if(phone instanceof IPhone) ((IPhone)phone).useAirDrop();
 		if(phone instanceof Galaxy) ((Galaxy)phone).useWirelessCharging();
 	}
-	
 	@Override
 	public String toString() {
 		return "모델명 : " + model + ", 제조사 : " + company + ", 가격 : " + String.format("%,d", price);
 	}
-	
 }
